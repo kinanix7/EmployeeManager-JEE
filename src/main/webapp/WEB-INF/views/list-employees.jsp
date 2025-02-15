@@ -15,11 +15,9 @@
     String error = (String) request.getAttribute("error");
 %>
 
-<div class="d-flex justify-content-between align-items-center mb-4">
-    <h2><i class="fas fa-users me-2"></i>Employee List</h2>
-    <a href="<%= request.getContextPath() %>/add-employee" class="btn btn-primary">
-        <i class="fas fa-plus me-1"></i>Add New Employee
-    </a>
+<div class="d-flex justify-content-center align-items-center mb-4">
+    <h2></i>Employee List</h2>
+
 </div>
 
 <% if (error != null && !error.isEmpty()) { %>

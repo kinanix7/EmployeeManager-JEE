@@ -1,3 +1,4 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ page import="example.model.Employee" %>
 <!-- /WEB-INF/views/update-employee.jsp -->
 <%@ include file="header.jsp" %>
